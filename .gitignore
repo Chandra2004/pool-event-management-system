@@ -1,0 +1,14 @@
+# Ignore everything
+/*
+
+# But allow the .gitignore file itself
+!.gitignore
+
+# Allow the docs directory structure
+!/docs/
+
+# Ignore everything inside docs except for 01-FOUNDER and 02-PRODUCT
+/docs/*
+!/docs/01-FOUNDER/
+!/docs/02-PRODUCT/
+!README.md
